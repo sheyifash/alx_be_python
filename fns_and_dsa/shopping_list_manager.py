@@ -8,6 +8,8 @@ def display_menu():
 def main():
     shopping_list = []
 
+    print("Shopping List Manager")  # Required line
+
     while True:
         display_menu()
         choice = input("Enter your choice (1-4): ").strip()
