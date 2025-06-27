@@ -15,19 +15,19 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertEqual(self.calc.add(0, 0), 0)
         self.assertEqual(self.calc.add(-3, -7), -10)
 
-    def test_subtract(self):
+    def test_subtraction(self):
         self.assertEqual(self.calc.subtract(5, 2), 3)
         self.assertEqual(self.calc.subtract(2, 5), -3)
         self.assertEqual(self.calc.subtract(0, 0), 0)
         self.assertEqual(self.calc.subtract(-4, -6), 2)
 
-    def test_multiply(self):
+    def test_multiplication(self):
         self.assertEqual(self.calc.multiply(4, 3), 12)
         self.assertEqual(self.calc.multiply(-2, 5), -10)
         self.assertEqual(self.calc.multiply(0, 100), 0)
         self.assertEqual(self.calc.multiply(-3, -3), 9)
 
-    def test_divide(self):
+    def test_division(self):
         self.assertEqual(self.calc.divide(10, 2), 5)
         self.assertEqual(self.calc.divide(-9, 3), -3)
         self.assertEqual(self.calc.divide(0, 5), 0)
